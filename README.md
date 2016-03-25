@@ -12,7 +12,7 @@ Please note that this is not a completed project so llicense headers are not yet
 4. Run Che using assembly.
 
 ## Import existing workspace into your Che
-Use this to create your Che workspace [https://gist.github.com/rnavagamuwa/8b825d4ea2408106e229].
+Use this to create your Che workspace https://gist.github.com/rnavagamuwa/8b825d4ea2408106e229
 
 
 
