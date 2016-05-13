@@ -9,7 +9,8 @@ RUN  sudo apt-get update \
   && sudo rm -rf /var/lib/apt/lists/*
 
 WORKDIR /home/user/
-RUN wget http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/mars/2/eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
-RUN tar -zxvf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
+RUN wget http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/mars/2/eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz && \
+    tar -zxvf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz && \
+    rm eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
 
 
