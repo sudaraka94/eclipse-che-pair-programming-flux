@@ -4,7 +4,7 @@ MAINTAINER Randika Navagamuwa <randika.12@cse.mrt.ac.lk>
 
 RUN  sudo apt-get update \
   && sudo apt-get install -y wget \
-  && sudo apt-get install libgtk2.0-0 libxtst6 \
+  && sudo apt-get install -y libgtk2.0-0 libxtst6 \
   && sudo apt-get clean \
   && sudo rm -rf /var/lib/apt/lists/*
 
